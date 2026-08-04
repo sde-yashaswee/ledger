@@ -81,24 +81,53 @@ def parse_ledger(file_path):
     
     all_rows_match = True
 
+    current_date = None
+    
     for line in lines:
         if not line.strip():
             continue
         
+        # Slicing
         date_raw = line[COL_RANGES['date'][0]:COL_RANGES['date'][1]].strip()
-        if not date_pattern.match(date_raw):
+        deb_raw = line[COL_RANGES['debit'][0]:COL_RANGES['debit'][1]].strip()
+        cre_raw = line[COL_RANGES['credit'][0]:COL_RANGES['credit'][1]].strip()
+        
+        # IGNORE structural text and noise
+        if any(x in line for x in ["Totals b/d", "Totals c/o", "contd.", "L E D G E R", "Account :", "Page", "Debit Balance", "Credit Balance", "Grand Total", "Total"]):
+            continue
+        if "---" in line or "===" in line:
+            continue
+        if "Date" in line and "Particulars" in line:
             continue
 
+        clean_deb = clean_currency(deb_raw)
+        clean_cre = clean_currency(cre_raw)
+
+        # VALIDATION LOGIC:
+        # 1. If it has a date, update the current_date and process.
+        # 2. If it has NO date but HAS a debit/credit value, use the current_date and process.
+        # 3. Otherwise, skip (it's a text-only continuation or noise).
+        
+        has_date = bool(date_pattern.match(date_raw))
+        has_value = bool(clean_deb or clean_cre)
+        
+        if has_date:
+            current_date = date_raw
+        elif has_value and current_date:
+            # This is a split transaction or adjustment line without a date
+            # Inherit the date from the previous record
+            pass
+        else:
+            # Noise or text-only continuation with no financial value
+            continue
+
+        # Extract remaining fields
         type_raw = line[COL_RANGES['type'][0]:COL_RANGES['type'][1]].strip()
         vch_raw = line[COL_RANGES['vch_no'][0]:COL_RANGES['vch_no'][1]].strip()
         part_raw = line[COL_RANGES['particulars'][0]:COL_RANGES['particulars'][1]].strip()
         narr_raw = line[COL_RANGES['narration'][0]:COL_RANGES['narration'][1]].strip()
-        deb_raw = line[COL_RANGES['debit'][0]:COL_RANGES['debit'][1]].strip()
-        cre_raw = line[COL_RANGES['credit'][0]:COL_RANGES['credit'][1]].strip()
         bal_raw = line[COL_RANGES['balance'][0]:COL_RANGES['balance'][1]].strip()
         
-        clean_deb = clean_currency(deb_raw)
-        clean_cre = clean_currency(cre_raw)
         clean_bal = clean_currency(bal_raw)
         
         # Determine if balance is Dr or Cr
@@ -112,14 +141,14 @@ def parse_ledger(file_path):
         parsed_debit_sum += val_deb
         parsed_credit_sum += val_cre
         
-        # Mathematical verification: Prev Balance + Debit - Credit = Current Balance
+        # Mathematical verification
         expected_balance = running_balance + val_deb - val_cre
         
-        # We use a 0.01 tolerance for floating point math
+        # 0.01 tolerance
         if abs(expected_balance - val_bal) > 0.01:
             errors.append({
                 "Serial Number": serial_no,
-                "Date": date_raw,
+                "Date": current_date,
                 "Expected_Balance": round(expected_balance, 2),
                 "Sheet_Balance": round(val_bal, 2),
                 "Difference": round(expected_balance - val_bal, 2)
@@ -130,7 +159,7 @@ def parse_ledger(file_path):
 
         results.append({
             "Serial Number": serial_no,
-            "Date": date_raw,
+            "Date": current_date,
             "Type": type_raw,
             "Particulars": part_raw,
             "Reference": vch_raw,
