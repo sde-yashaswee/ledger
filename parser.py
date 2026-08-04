@@ -160,13 +160,10 @@ def parse_ledger(file_path):
         results.append({
             "Serial Number": serial_no,
             "Date": current_date,
-            "Type": type_raw,
             "Particulars": part_raw,
             "Reference": vch_raw,
-            "Narration": narr_raw,
             "Debit": clean_deb,
             "Credit": clean_cre,
-            "Balance": f"{abs(val_bal):.2f} {'Cr' if bal_is_cr else 'Dr'}"
         })
         serial_no += 1
 
@@ -251,7 +248,7 @@ def parse_ledger(file_path):
         else:
             last_invoice_id = None
             
-        row["Running Balance"] = round(running_balance_num, 2)
+        row["Balance"] = round(running_balance_num, 2)
         row["Bill Date"] = bill_date
         row["Bill Value"] = f"{bill_amount:.2f}" if bill_amount != "" else ""
         row["B Wise Bc"] = f"{bill_balance:.2f}" if bill_balance != "" else ""
