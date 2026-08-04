@@ -35,7 +35,12 @@
             "Narration": "",
             "Debit": "8267.00",
             "Credit": "",
-            "Balance": "8267.00 Dr"
+            "Balance": "8267.00 Dr",
+            "Running Balance": 8267.0,
+            "Bill Date": "07-04-2026",
+            "Bill Value": "8267.00",
+            "B Wise Bc": "8267.00",
+            "Bill Serial": "1 / 31"
         },
         {
             "Serial Number": 2,
@@ -46,7 +51,12 @@
             "Narration": "",
             "Debit": "8118.00",
             "Credit": "",
-            "Balance": "16385.00 Dr"
+            "Balance": "16385.00 Dr",
+            "Running Balance": 16385.0,
+            "Bill Date": "",
+            "Bill Value": "",
+            "B Wise Bc": "8267.00",
+            "Bill Serial": ""
         },
         {
             "Serial Number": 3,
@@ -57,7 +67,12 @@
             "Narration": "",
             "Debit": "33100.00",
             "Credit": "",
-            "Balance": "49485.00 Dr"
+            "Balance": "49485.00 Dr",
+            "Running Balance": 49485.0,
+            "Bill Date": "",
+            "Bill Value": "",
+            "B Wise Bc": "8267.00",
+            "Bill Serial": ""
         },
         {
             "Serial Number": 4,
@@ -68,7 +83,12 @@
             "Narration": "",
             "Debit": "8200.00",
             "Credit": "",
-            "Balance": "57685.00 Dr"
+            "Balance": "57685.00 Dr",
+            "Running Balance": 57685.0,
+            "Bill Date": "",
+            "Bill Value": "",
+            "B Wise Bc": "8267.00",
+            "Bill Serial": ""
         },
         {
             "Serial Number": 5,
@@ -79,7 +99,12 @@
             "Narration": "",
             "Debit": "",
             "Credit": "16386.00",
-            "Balance": "41299.00 Dr"
+            "Balance": "41299.00 Dr",
+            "Running Balance": 41299.0,
+            "Bill Date": "10-04-2026",
+            "Bill Value": "33100.00",
+            "B Wise Bc": "33099.00",
+            "Bill Serial": "3 / 31"
         },
         {
             "Serial Number": 6,
@@ -90,7 +115,12 @@
             "Narration": "",
             "Debit": "33066.00",
             "Credit": "",
-            "Balance": "74365.00 Dr"
+            "Balance": "74365.00 Dr",
+            "Running Balance": 74365.0,
+            "Bill Date": "",
+            "Bill Value": "",
+            "B Wise Bc": "33099.00",
+            "Bill Serial": ""
         },
         {
             "Serial Number": 7,
@@ -101,7 +131,12 @@
             "Narration": "",
             "Debit": "4955.60",
             "Credit": "",
-            "Balance": "79320.60 Dr"
+            "Balance": "79320.60 Dr",
+            "Running Balance": 79320.6,
+            "Bill Date": "",
+            "Bill Value": "",
+            "B Wise Bc": "33099.00",
+            "Bill Serial": ""
         },
         {
             "Serial Number": 8,
@@ -112,7 +147,12 @@
             "Narration": "",
             "Debit": "",
             "Credit": "32769.00",
-            "Balance": "46551.60 Dr"
+            "Balance": "46551.60 Dr",
+            "Running Balance": 46551.6,
+            "Bill Date": "",
+            "Bill Value": "",
+            "B Wise Bc": "330.00",
+            "Bill Serial": ""
         },
         {
             "Serial Number": 9,
@@ -123,7 +163,12 @@
             "Narration": "",
             "Debit": "16038.00",
             "Credit": "",
-            "Balance": "62589.60 Dr"
+            "Balance": "62589.60 Dr",
+            "Running Balance": 62589.6,
+            "Bill Date": "",
+            "Bill Value": "",
+            "B Wise Bc": "330.00",
+            "Bill Serial": ""
         },
         {
             "Serial Number": 10,
@@ -134,7 +179,12 @@
             "Narration": "",
             "Debit": "",
             "Credit": "8118.00",
-            "Balance": "54471.60 Dr"
+            "Balance": "54471.60 Dr",
+            "Running Balance": 54471.6,
+            "Bill Date": "10-04-2026",
+            "Bill Value": "8200.00",
+            "B Wise Bc": "412.00",
+            "Bill Serial": "4 / 31"
         },
         {
             "Serial Number": 11,
@@ -145,7 +195,12 @@
             "Narration": "",
             "Debit": "7168.00",
             "Credit": "",
-            "Balance": "61639.60 Dr"
+            "Balance": "61639.60 Dr",
+            "Running Balance": 61639.6,
+            "Bill Date": "",
+            "Bill Value": "",
+            "B Wise Bc": "412.00",
+            "Bill Serial": ""
         },
         {
             "Serial Number": 12,
@@ -156,7 +211,12 @@
             "Narration": "",
             "Debit": "",
             "Credit": "33050.00",
-            "Balance": "28589.60 Dr"
+            "Balance": "28589.60 Dr",
+            "Running Balance": 28589.6,
+            "Bill Date": "16-04-2026",
+            "Bill Value": "33066.00",
+            "B Wise Bc": "428.00",
+            "Bill Serial": "5 / 31"
         },
         {
             "Serial Number": 13,
@@ -167,7 +227,12 @@
             "Narration": "",
             "Debit": "41316.00",
             "Credit": "",
-            "Balance": "69905.60 Dr"
+            "Balance": "69905.60 Dr",
+            "Running Balance": 69905.6,
+            "Bill Date": "",
+            "Bill Value": "",
+            "B Wise Bc": "428.00",
+            "Bill Serial": ""
         },
         {
             "Serial Number": 14,
@@ -178,7 +243,12 @@
             "Narration": "",
             "Debit": "",
             "Credit": "12536.00",
-            "Balance": "57369.60 Dr"
+            "Balance": "57369.60 Dr",
+            "Running Balance": 57369.6,
+            "Bill Date": "21-04-2026",
+            "Bill Value": "16038.00",
+            "B Wise Bc": "8885.60",
+            "Bill Serial": "7 / 31"
         },
         {
             "Serial Number": 15,
@@ -189,7 +259,12 @@
             "Narration": "",
             "Debit": "16483.50",
             "Credit": "",
-            "Balance": "73853.10 Dr"
+            "Balance": "73853.10 Dr",
+            "Running Balance": 73853.1,
+            "Bill Date": "",
+            "Bill Value": "",
+            "B Wise Bc": "8885.60",
+            "Bill Serial": ""
         },
         {
             "Serial Number": 16,
@@ -200,7 +275,12 @@
             "Narration": "",
             "Debit": "",
             "Credit": "16040.00",
-            "Balance": "57813.10 Dr"
+            "Balance": "57813.10 Dr",
+            "Running Balance": 57813.1,
+            "Bill Date": "25-04-2026",
+            "Bill Value": "7168.00",
+            "B Wise Bc": "13.60",
+            "Bill Serial": "8 / 31"
         },
         {
             "Serial Number": 17,
@@ -211,7 +291,12 @@
             "Narration": "",
             "Debit": "",
             "Credit": "50800.00",
-            "Balance": "7013.10 Dr"
+            "Balance": "7013.10 Dr",
+            "Running Balance": 7013.1,
+            "Bill Date": "09-05-2026",
+            "Bill Value": "16483.50",
+            "B Wise Bc": "7013.10",
+            "Bill Serial": "10 / 31"
         },
         {
             "Serial Number": 18,
@@ -222,7 +307,12 @@
             "Narration": "",
             "Debit": "8737.00",
             "Credit": "",
-            "Balance": "15750.10 Dr"
+            "Balance": "15750.10 Dr",
+            "Running Balance": 15750.1,
+            "Bill Date": "",
+            "Bill Value": "",
+            "B Wise Bc": "7013.10",
+            "Bill Serial": ""
         },
         {
             "Serial Number": 19,
@@ -233,7 +323,12 @@
             "Narration": "",
             "Debit": "24651.00",
             "Credit": "",
-            "Balance": "40401.10 Dr"
+            "Balance": "40401.10 Dr",
+            "Running Balance": 40401.1,
+            "Bill Date": "",
+            "Bill Value": "",
+            "B Wise Bc": "7013.10",
+            "Bill Serial": ""
         },
         {
             "Serial Number": 20,
@@ -244,7 +339,12 @@
             "Narration": "",
             "Debit": "8217.00",
             "Credit": "",
-            "Balance": "48618.10 Dr"
+            "Balance": "48618.10 Dr",
+            "Running Balance": 48618.1,
+            "Bill Date": "",
+            "Bill Value": "",
+            "B Wise Bc": "7013.10",
+            "Bill Serial": ""
         },
         {
             "Serial Number": 21,
@@ -255,7 +355,12 @@
             "Narration": "",
             "Debit": "41085.00",
             "Credit": "",
-            "Balance": "89703.10 Dr"
+            "Balance": "89703.10 Dr",
+            "Running Balance": 89703.1,
+            "Bill Date": "",
+            "Bill Value": "",
+            "B Wise Bc": "7013.10",
+            "Bill Serial": ""
         },
         {
             "Serial Number": 22,
@@ -266,7 +371,12 @@
             "Narration": "",
             "Debit": "",
             "Credit": "38530.00",
-            "Balance": "51173.10 Dr"
+            "Balance": "51173.10 Dr",
+            "Running Balance": 51173.1,
+            "Bill Date": "22-05-2026",
+            "Bill Value": "24651.00",
+            "B Wise Bc": "1871.10",
+            "Bill Serial": "12 / 31"
         },
         {
             "Serial Number": 23,
@@ -277,7 +387,12 @@
             "Narration": "",
             "Debit": "8510.00",
             "Credit": "",
-            "Balance": "59683.10 Dr"
+            "Balance": "59683.10 Dr",
+            "Running Balance": 59683.1,
+            "Bill Date": "",
+            "Bill Value": "",
+            "B Wise Bc": "1871.10",
+            "Bill Serial": ""
         },
         {
             "Serial Number": 24,
@@ -288,7 +403,12 @@
             "Narration": "",
             "Debit": "",
             "Credit": "38510.00",
-            "Balance": "21173.10 Dr"
+            "Balance": "21173.10 Dr",
+            "Running Balance": 21173.1,
+            "Bill Date": "23-05-2026",
+            "Bill Value": "41085.00",
+            "B Wise Bc": "12663.10",
+            "Bill Serial": "14 / 31"
         },
         {
             "Serial Number": 25,
@@ -299,7 +419,12 @@
             "Narration": "",
             "Debit": "",
             "Credit": "25000.00",
-            "Balance": "3826.90 Cr"
+            "Balance": "3826.90 Cr",
+            "Running Balance": -3826.9,
+            "Bill Date": "",
+            "Bill Value": "",
+            "B Wise Bc": "",
+            "Bill Serial": ""
         },
         {
             "Serial Number": 26,
@@ -310,7 +435,12 @@
             "Narration": "",
             "Debit": "5312.00",
             "Credit": "",
-            "Balance": "1485.10 Dr"
+            "Balance": "1485.10 Dr",
+            "Running Balance": 1485.1,
+            "Bill Date": "15-06-2026",
+            "Bill Value": "5312.00",
+            "B Wise Bc": "5312.00",
+            "Bill Serial": "16 / 31"
         },
         {
             "Serial Number": 27,
@@ -321,7 +451,12 @@
             "Narration": "",
             "Debit": "16295.00",
             "Credit": "",
-            "Balance": "17780.10 Dr"
+            "Balance": "17780.10 Dr",
+            "Running Balance": 17780.1,
+            "Bill Date": "",
+            "Bill Value": "",
+            "B Wise Bc": "5312.00",
+            "Bill Serial": ""
         },
         {
             "Serial Number": 28,
@@ -332,7 +467,12 @@
             "Narration": "",
             "Debit": "9438.90",
             "Credit": "",
-            "Balance": "27219.00 Dr"
+            "Balance": "27219.00 Dr",
+            "Running Balance": 27219.0,
+            "Bill Date": "",
+            "Bill Value": "",
+            "B Wise Bc": "5312.00",
+            "Bill Serial": ""
         },
         {
             "Serial Number": 29,
@@ -343,7 +483,12 @@
             "Narration": "",
             "Debit": "32472.00",
             "Credit": "",
-            "Balance": "59691.00 Dr"
+            "Balance": "59691.00 Dr",
+            "Running Balance": 59691.0,
+            "Bill Date": "",
+            "Bill Value": "",
+            "B Wise Bc": "5312.00",
+            "Bill Serial": ""
         },
         {
             "Serial Number": 30,
@@ -354,7 +499,12 @@
             "Narration": "",
             "Debit": "21360.00",
             "Credit": "",
-            "Balance": "81051.00 Dr"
+            "Balance": "81051.00 Dr",
+            "Running Balance": 81051.0,
+            "Bill Date": "",
+            "Bill Value": "",
+            "B Wise Bc": "5312.00",
+            "Bill Serial": ""
         },
         {
             "Serial Number": 31,
@@ -365,7 +515,12 @@
             "Narration": "",
             "Debit": "",
             "Credit": "31133.00",
-            "Balance": "49918.00 Dr"
+            "Balance": "49918.00 Dr",
+            "Running Balance": 49918.0,
+            "Bill Date": "16-06-2026",
+            "Bill Value": "32472.00",
+            "B Wise Bc": "32384.90",
+            "Bill Serial": "19 / 31"
         },
         {
             "Serial Number": 32,
@@ -376,7 +531,12 @@
             "Narration": "",
             "Debit": "5400.00",
             "Credit": "",
-            "Balance": "55318.00 Dr"
+            "Balance": "55318.00 Dr",
+            "Running Balance": 55318.0,
+            "Bill Date": "",
+            "Bill Value": "",
+            "B Wise Bc": "32384.90",
+            "Bill Serial": ""
         },
         {
             "Serial Number": 33,
@@ -387,7 +547,12 @@
             "Narration": "",
             "Debit": "5050.00",
             "Credit": "",
-            "Balance": "60368.00 Dr"
+            "Balance": "60368.00 Dr",
+            "Running Balance": 60368.0,
+            "Bill Date": "",
+            "Bill Value": "",
+            "B Wise Bc": "32384.90",
+            "Bill Serial": ""
         },
         {
             "Serial Number": 34,
@@ -398,7 +563,12 @@
             "Narration": "",
             "Debit": "6600.00",
             "Credit": "",
-            "Balance": "66968.00 Dr"
+            "Balance": "66968.00 Dr",
+            "Running Balance": 66968.0,
+            "Bill Date": "",
+            "Bill Value": "",
+            "B Wise Bc": "32384.90",
+            "Bill Serial": ""
         },
         {
             "Serial Number": 35,
@@ -409,7 +579,12 @@
             "Narration": "",
             "Debit": "15840.00",
             "Credit": "",
-            "Balance": "82808.00 Dr"
+            "Balance": "82808.00 Dr",
+            "Running Balance": 82808.0,
+            "Bill Date": "",
+            "Bill Value": "",
+            "B Wise Bc": "32384.90",
+            "Bill Serial": ""
         },
         {
             "Serial Number": 36,
@@ -420,7 +595,12 @@
             "Narration": "",
             "Debit": "",
             "Credit": "30750.00",
-            "Balance": "52058.00 Dr"
+            "Balance": "52058.00 Dr",
+            "Running Balance": 52058.0,
+            "Bill Date": "",
+            "Bill Value": "",
+            "B Wise Bc": "1634.90",
+            "Bill Serial": ""
         },
         {
             "Serial Number": 37,
@@ -431,7 +611,12 @@
             "Narration": "",
             "Debit": "",
             "Credit": "2800.00",
-            "Balance": "49258.00 Dr"
+            "Balance": "49258.00 Dr",
+            "Running Balance": 49258.0,
+            "Bill Date": "27-06-2026",
+            "Bill Value": "21360.00",
+            "B Wise Bc": "20194.90",
+            "Bill Serial": "20 / 31"
         },
         {
             "Serial Number": 38,
@@ -442,7 +627,12 @@
             "Narration": "",
             "Debit": "7772.00",
             "Credit": "",
-            "Balance": "57030.00 Dr"
+            "Balance": "57030.00 Dr",
+            "Running Balance": 57030.0,
+            "Bill Date": "",
+            "Bill Value": "",
+            "B Wise Bc": "20194.90",
+            "Bill Serial": ""
         },
         {
             "Serial Number": 39,
@@ -453,7 +643,12 @@
             "Narration": "",
             "Debit": "26522.10",
             "Credit": "",
-            "Balance": "83552.10 Dr"
+            "Balance": "83552.10 Dr",
+            "Running Balance": 83552.1,
+            "Bill Date": "",
+            "Bill Value": "",
+            "B Wise Bc": "20194.90",
+            "Bill Serial": ""
         },
         {
             "Serial Number": 40,
@@ -464,7 +659,12 @@
             "Narration": "",
             "Debit": "38734.00",
             "Credit": "",
-            "Balance": "22286.10 Dr"
+            "Balance": "22286.10 Dr",
+            "Running Balance": 122286.1,
+            "Bill Date": "",
+            "Bill Value": "",
+            "B Wise Bc": "20194.90",
+            "Bill Serial": ""
         },
         {
             "Serial Number": 41,
@@ -475,7 +675,12 @@
             "Narration": "",
             "Debit": "",
             "Credit": "33410.00",
-            "Balance": "88876.10 Dr"
+            "Balance": "88876.10 Dr",
+            "Running Balance": 88876.1,
+            "Bill Date": "11-07-2026",
+            "Bill Value": "6600.00",
+            "B Wise Bc": "3834.90",
+            "Bill Serial": "23 / 31"
         },
         {
             "Serial Number": 42,
@@ -486,7 +691,12 @@
             "Narration": "",
             "Debit": "1565.00",
             "Credit": "",
-            "Balance": "90441.10 Dr"
+            "Balance": "90441.10 Dr",
+            "Running Balance": 90441.1,
+            "Bill Date": "",
+            "Bill Value": "",
+            "B Wise Bc": "3834.90",
+            "Bill Serial": ""
         },
         {
             "Serial Number": 43,
@@ -497,7 +707,12 @@
             "Narration": "",
             "Debit": "",
             "Credit": "25177.00",
-            "Balance": "65264.10 Dr"
+            "Balance": "65264.10 Dr",
+            "Running Balance": 65264.1,
+            "Bill Date": "14-07-2026",
+            "Bill Value": "7772.00",
+            "B Wise Bc": "2269.90",
+            "Bill Serial": "25 / 31"
         },
         {
             "Serial Number": 44,
@@ -508,7 +723,12 @@
             "Narration": "",
             "Debit": "8365.00",
             "Credit": "",
-            "Balance": "73629.10 Dr"
+            "Balance": "73629.10 Dr",
+            "Running Balance": 73629.1,
+            "Bill Date": "",
+            "Bill Value": "",
+            "B Wise Bc": "2269.90",
+            "Bill Serial": ""
         },
         {
             "Serial Number": 45,
@@ -519,7 +739,12 @@
             "Narration": "",
             "Debit": "1565.00",
             "Credit": "",
-            "Balance": "75194.10 Dr"
+            "Balance": "75194.10 Dr",
+            "Running Balance": 75194.1,
+            "Bill Date": "",
+            "Bill Value": "",
+            "B Wise Bc": "2269.90",
+            "Bill Serial": ""
         },
         {
             "Serial Number": 46,
@@ -530,7 +755,12 @@
             "Narration": "",
             "Debit": "",
             "Credit": "48664.00",
-            "Balance": "26530.10 Dr"
+            "Balance": "26530.10 Dr",
+            "Running Balance": 26530.1,
+            "Bill Date": "17-07-2026",
+            "Bill Value": "38734.00",
+            "B Wise Bc": "18862.00",
+            "Bill Serial": "27 / 31"
         },
         {
             "Serial Number": 47,
@@ -541,7 +771,12 @@
             "Narration": "",
             "Debit": "34350.00",
             "Credit": "",
-            "Balance": "60880.10 Dr"
+            "Balance": "60880.10 Dr",
+            "Running Balance": 60880.1,
+            "Bill Date": "",
+            "Bill Value": "",
+            "B Wise Bc": "18862.00",
+            "Bill Serial": ""
         }
     ]
 }

@@ -1,6 +1,7 @@
 import json
 import re
 import os
+import uuid
 from bs4 import BeautifulSoup
 
 def parse_ledger(file_path):
@@ -196,6 +197,65 @@ def parse_ledger(file_path):
         "Row_Level_Integrity": all_rows_match,
         "Totals_Reconciled": totals_match
     }
+
+    # =========================================================================
+    # FIFO BILL ALGORITHM (Integrated from Apps Script)
+    # =========================================================================
+    
+    total_bills = sum(1 for r in results if r["Debit"])
+    
+    running_balance_num = 0.0
+    queue = []
+    last_invoice_id = None
+    invoice_counter = 0
+
+    for row in results:
+        deb_val = float(row['Debit']) if row['Debit'] else 0.0
+        cre_val = float(row['Credit']) if row['Credit'] else 0.0
+        
+        running_balance_num += (deb_val - cre_val)
+        
+        if deb_val > 0:
+            invoice_counter += 1
+            queue.append({
+                "id": str(uuid.uuid4()),
+                "serial": invoice_counter,
+                "date": row['Date'],
+                "amount": deb_val,
+                "balance": deb_val
+            })
+            
+        payment = cre_val
+        while payment > 0 and queue:
+            oldest = queue[0]
+            if payment >= oldest["balance"]:
+                payment -= oldest["balance"]
+                queue.pop(0)
+            else:
+                oldest["balance"] -= payment
+                payment = 0
+                
+        serial = ""
+        bill_date = ""
+        bill_amount = ""
+        bill_balance = ""
+        
+        if queue:
+            current = queue[0]
+            bill_balance = current["balance"]
+            if last_invoice_id != current["id"]:
+                serial = f"{current['serial']} / {total_bills}"
+                bill_date = current["date"]
+                bill_amount = current["amount"]
+                last_invoice_id = current["id"]
+        else:
+            last_invoice_id = None
+            
+        row["Running Balance"] = round(running_balance_num, 2)
+        row["Bill Date"] = bill_date
+        row["Bill Value"] = f"{bill_amount:.2f}" if bill_amount != "" else ""
+        row["B Wise Bc"] = f"{bill_balance:.2f}" if bill_balance != "" else ""
+        row["Bill Serial"] = serial
 
     return {
         "verification": verification,
