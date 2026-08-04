@@ -9,8 +9,7 @@ def parse_ledger(file_path):
     Handles multi-line entries, invoice number continuations, and split transactions.
     """
     if not os.path.exists(file_path):
-        print(f"Error: File not found: {file_path}")
-        return []
+        raise FileNotFoundError(f"Error: File not found at {file_path}")
 
     # Tally exports are often UTF-16 Little Endian
     with open(file_path, 'r', encoding='utf-16') as f:
@@ -205,7 +204,7 @@ def parse_ledger(file_path):
     }
 
 if __name__ == "__main__":
-    input_path = '/Users/yashaswee/ledger/input/sample-1.htm'
+    input_path = '/Users/yashaswee/ledger/input/sample-2.htm'
     
     # Determine output path
     base_name = os.path.basename(input_path)
