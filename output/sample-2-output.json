@@ -27,10 +27,10 @@
     ],
     "data": [
         {
-            "Serial Number": 1,
+            "SR": 1,
             "Date": "07-04-2026",
             "Particulars": "Cr Sales",
-            "Reference": "65/2026-27",
+            "Ref": "65/2026-27",
             "Debit": "8267.00",
             "Credit": "",
             "Balance": 8267.0,
@@ -40,10 +40,10 @@
             "Bill Serial": "1 / 31"
         },
         {
-            "Serial Number": 2,
+            "SR": 2,
             "Date": "10-04-2026",
             "Particulars": "Cr Sales",
-            "Reference": "107/2026-27",
+            "Ref": "107/2026-27",
             "Debit": "8118.00",
             "Credit": "",
             "Balance": 16385.0,
@@ -53,10 +53,10 @@
             "Bill Serial": ""
         },
         {
-            "Serial Number": 3,
+            "SR": 3,
             "Date": "10-04-2026",
             "Particulars": "Cr Sales",
-            "Reference": "108/2026-27",
+            "Ref": "108/2026-27",
             "Debit": "33100.00",
             "Credit": "",
             "Balance": 49485.0,
@@ -66,10 +66,10 @@
             "Bill Serial": ""
         },
         {
-            "Serial Number": 4,
+            "SR": 4,
             "Date": "10-04-2026",
             "Particulars": "Cr Sales",
-            "Reference": "109/2026-27",
+            "Ref": "109/2026-27",
             "Debit": "8200.00",
             "Credit": "",
             "Balance": 57685.0,
@@ -79,10 +79,10 @@
             "Bill Serial": ""
         },
         {
-            "Serial Number": 5,
+            "SR": 5,
             "Date": "15-04-2026",
             "Particulars": "Dr Cash",
-            "Reference": "84",
+            "Ref": "84",
             "Debit": "",
             "Credit": "16386.00",
             "Balance": 41299.0,
@@ -92,10 +92,10 @@
             "Bill Serial": "3 / 31"
         },
         {
-            "Serial Number": 6,
+            "SR": 6,
             "Date": "16-04-2026",
             "Particulars": "Cr Sales",
-            "Reference": "196/2026-27",
+            "Ref": "196/2026-27",
             "Debit": "33066.00",
             "Credit": "",
             "Balance": 74365.0,
@@ -105,10 +105,10 @@
             "Bill Serial": ""
         },
         {
-            "Serial Number": 7,
+            "SR": 7,
             "Date": "18-04-2026",
             "Particulars": "Cr Sales",
-            "Reference": "229/2026-27",
+            "Ref": "229/2026-27",
             "Debit": "4955.60",
             "Credit": "",
             "Balance": 79320.6,
@@ -118,10 +118,10 @@
             "Bill Serial": ""
         },
         {
-            "Serial Number": 8,
+            "SR": 8,
             "Date": "20-04-2026",
             "Particulars": "Dr Cash",
-            "Reference": "120",
+            "Ref": "120",
             "Debit": "",
             "Credit": "32769.00",
             "Balance": 46551.6,
@@ -131,10 +131,10 @@
             "Bill Serial": ""
         },
         {
-            "Serial Number": 9,
+            "SR": 9,
             "Date": "21-04-2026",
             "Particulars": "Cr Sales",
-            "Reference": "275/2026-27",
+            "Ref": "275/2026-27",
             "Debit": "16038.00",
             "Credit": "",
             "Balance": 62589.6,
@@ -144,10 +144,10 @@
             "Bill Serial": ""
         },
         {
-            "Serial Number": 10,
+            "SR": 10,
             "Date": "23-04-2026",
             "Particulars": "Dr Cash",
-            "Reference": "143",
+            "Ref": "143",
             "Debit": "",
             "Credit": "8118.00",
             "Balance": 54471.6,
@@ -157,10 +157,10 @@
             "Bill Serial": "4 / 31"
         },
         {
-            "Serial Number": 11,
+            "SR": 11,
             "Date": "25-04-2026",
             "Particulars": "Cr Sales",
-            "Reference": "367/2026-27",
+            "Ref": "367/2026-27",
             "Debit": "7168.00",
             "Credit": "",
             "Balance": 61639.6,
@@ -170,10 +170,10 @@
             "Bill Serial": ""
         },
         {
-            "Serial Number": 12,
+            "SR": 12,
             "Date": "28-04-2026",
             "Particulars": "Dr Cash",
-            "Reference": "166",
+            "Ref": "166",
             "Debit": "",
             "Credit": "33050.00",
             "Balance": 28589.6,
@@ -183,10 +183,10 @@
             "Bill Serial": "5 / 31"
         },
         {
-            "Serial Number": 13,
+            "SR": 13,
             "Date": "29-04-2026",
             "Particulars": "Cr Sales",
-            "Reference": "418/2026-27",
+            "Ref": "418/2026-27",
             "Debit": "41316.00",
             "Credit": "",
             "Balance": 69905.6,
@@ -196,10 +196,10 @@
             "Bill Serial": ""
         },
         {
-            "Serial Number": 14,
+            "SR": 14,
             "Date": "08-05-2026",
             "Particulars": "Dr Cash",
-            "Reference": "226",
+            "Ref": "226",
             "Debit": "",
             "Credit": "12536.00",
             "Balance": 57369.6,
@@ -209,10 +209,10 @@
             "Bill Serial": "7 / 31"
         },
         {
-            "Serial Number": 15,
+            "SR": 15,
             "Date": "09-05-2026",
             "Particulars": "Cr Sales",
-            "Reference": "572/2026-27",
+            "Ref": "572/2026-27",
             "Debit": "16483.50",
             "Credit": "",
             "Balance": 73853.1,
@@ -222,10 +222,10 @@
             "Bill Serial": ""
         },
         {
-            "Serial Number": 16,
+            "SR": 16,
             "Date": "12-05-2026",
             "Particulars": "Dr Cash",
-            "Reference": "240",
+            "Ref": "240",
             "Debit": "",
             "Credit": "16040.00",
             "Balance": 57813.1,
@@ -235,10 +235,10 @@
             "Bill Serial": "8 / 31"
         },
         {
-            "Serial Number": 17,
+            "SR": 17,
             "Date": "19-05-2026",
             "Particulars": "Dr Cash",
-            "Reference": "290",
+            "Ref": "290",
             "Debit": "",
             "Credit": "50800.00",
             "Balance": 7013.1,
@@ -248,10 +248,10 @@
             "Bill Serial": "10 / 31"
         },
         {
-            "Serial Number": 18,
+            "SR": 18,
             "Date": "21-05-2026",
             "Particulars": "Cr Sales",
-            "Reference": "750/2026-27",
+            "Ref": "750/2026-27",
             "Debit": "8737.00",
             "Credit": "",
             "Balance": 15750.1,
@@ -261,10 +261,10 @@
             "Bill Serial": ""
         },
         {
-            "Serial Number": 19,
+            "SR": 19,
             "Date": "22-05-2026",
             "Particulars": "Cr Sales",
-            "Reference": "764/2026-27",
+            "Ref": "764/2026-27",
             "Debit": "24651.00",
             "Credit": "",
             "Balance": 40401.1,
@@ -274,10 +274,10 @@
             "Bill Serial": ""
         },
         {
-            "Serial Number": 20,
+            "SR": 20,
             "Date": "22-05-2026",
             "Particulars": "Cr Sales",
-            "Reference": "769/2026-27",
+            "Ref": "769/2026-27",
             "Debit": "8217.00",
             "Credit": "",
             "Balance": 48618.1,
@@ -287,10 +287,10 @@
             "Bill Serial": ""
         },
         {
-            "Serial Number": 21,
+            "SR": 21,
             "Date": "23-05-2026",
             "Particulars": "Cr Sales",
-            "Reference": "778/2026-27",
+            "Ref": "778/2026-27",
             "Debit": "41085.00",
             "Credit": "",
             "Balance": 89703.1,
@@ -300,10 +300,10 @@
             "Bill Serial": ""
         },
         {
-            "Serial Number": 22,
+            "SR": 22,
             "Date": "01-06-2026",
             "Particulars": "Dr Cash",
-            "Reference": "348",
+            "Ref": "348",
             "Debit": "",
             "Credit": "38530.00",
             "Balance": 51173.1,
@@ -313,10 +313,10 @@
             "Bill Serial": "12 / 31"
         },
         {
-            "Serial Number": 23,
+            "SR": 23,
             "Date": "05-06-2026",
             "Particulars": "Cr Sales",
-            "Reference": "936/2026-27",
+            "Ref": "936/2026-27",
             "Debit": "8510.00",
             "Credit": "",
             "Balance": 59683.1,
@@ -326,10 +326,10 @@
             "Bill Serial": ""
         },
         {
-            "Serial Number": 24,
+            "SR": 24,
             "Date": "05-06-2026",
             "Particulars": "Dr Cash",
-            "Reference": "374",
+            "Ref": "374",
             "Debit": "",
             "Credit": "38510.00",
             "Balance": 21173.1,
@@ -339,10 +339,10 @@
             "Bill Serial": "14 / 31"
         },
         {
-            "Serial Number": 25,
+            "SR": 25,
             "Date": "12-06-2026",
             "Particulars": "Dr Cash",
-            "Reference": "408",
+            "Ref": "408",
             "Debit": "",
             "Credit": "25000.00",
             "Balance": -3826.9,
@@ -352,10 +352,10 @@
             "Bill Serial": ""
         },
         {
-            "Serial Number": 26,
+            "SR": 26,
             "Date": "15-06-2026",
             "Particulars": "Cr Sales",
-            "Reference": "072/2026-27",
+            "Ref": "072/2026-27",
             "Debit": "5312.00",
             "Credit": "",
             "Balance": 1485.1,
@@ -365,10 +365,10 @@
             "Bill Serial": "16 / 31"
         },
         {
-            "Serial Number": 27,
+            "SR": 27,
             "Date": "16-06-2026",
             "Particulars": "Cr Sales",
-            "Reference": "083/2026-27",
+            "Ref": "083/2026-27",
             "Debit": "16295.00",
             "Credit": "",
             "Balance": 17780.1,
@@ -378,10 +378,10 @@
             "Bill Serial": ""
         },
         {
-            "Serial Number": 28,
+            "SR": 28,
             "Date": "16-06-2026",
             "Particulars": "Cr Sales",
-            "Reference": "084/2026-27",
+            "Ref": "084/2026-27",
             "Debit": "9438.90",
             "Credit": "",
             "Balance": 27219.0,
@@ -391,10 +391,10 @@
             "Bill Serial": ""
         },
         {
-            "Serial Number": 29,
+            "SR": 29,
             "Date": "16-06-2026",
             "Particulars": "Cr Sales",
-            "Reference": "085/2026-27",
+            "Ref": "085/2026-27",
             "Debit": "32472.00",
             "Credit": "",
             "Balance": 59691.0,
@@ -404,10 +404,10 @@
             "Bill Serial": ""
         },
         {
-            "Serial Number": 30,
+            "SR": 30,
             "Date": "27-06-2026",
             "Particulars": "Cr Sales",
-            "Reference": "248/2026-27",
+            "Ref": "248/2026-27",
             "Debit": "21360.00",
             "Credit": "",
             "Balance": 81051.0,
@@ -417,10 +417,10 @@
             "Bill Serial": ""
         },
         {
-            "Serial Number": 31,
+            "SR": 31,
             "Date": "29-06-2026",
             "Particulars": "Dr Cash",
-            "Reference": "512",
+            "Ref": "512",
             "Debit": "",
             "Credit": "31133.00",
             "Balance": 49918.0,
@@ -430,10 +430,10 @@
             "Bill Serial": "19 / 31"
         },
         {
-            "Serial Number": 32,
+            "SR": 32,
             "Date": "04-07-2026",
             "Particulars": "Cr Sales",
-            "Reference": "348/2026-27",
+            "Ref": "348/2026-27",
             "Debit": "5400.00",
             "Credit": "",
             "Balance": 55318.0,
@@ -443,10 +443,10 @@
             "Bill Serial": ""
         },
         {
-            "Serial Number": 33,
+            "SR": 33,
             "Date": "04-07-2026",
             "Particulars": "Cr Sales",
-            "Reference": "349/2026-27",
+            "Ref": "349/2026-27",
             "Debit": "5050.00",
             "Credit": "",
             "Balance": 60368.0,
@@ -456,10 +456,10 @@
             "Bill Serial": ""
         },
         {
-            "Serial Number": 34,
+            "SR": 34,
             "Date": "11-07-2026",
             "Particulars": "Cr Sales",
-            "Reference": "430/2026-27",
+            "Ref": "430/2026-27",
             "Debit": "6600.00",
             "Credit": "",
             "Balance": 66968.0,
@@ -469,10 +469,10 @@
             "Bill Serial": ""
         },
         {
-            "Serial Number": 35,
+            "SR": 35,
             "Date": "11-07-2026",
             "Particulars": "Cr Sales",
-            "Reference": "445/2026-27",
+            "Ref": "445/2026-27",
             "Debit": "15840.00",
             "Credit": "",
             "Balance": 82808.0,
@@ -482,10 +482,10 @@
             "Bill Serial": ""
         },
         {
-            "Serial Number": 36,
+            "SR": 36,
             "Date": "13-07-2026",
             "Particulars": "Dr Cash",
-            "Reference": "610",
+            "Ref": "610",
             "Debit": "",
             "Credit": "30750.00",
             "Balance": 52058.0,
@@ -495,10 +495,10 @@
             "Bill Serial": ""
         },
         {
-            "Serial Number": 37,
+            "SR": 37,
             "Date": "14-07-2026",
             "Particulars": "Dr Purchase",
-            "Reference": "144",
+            "Ref": "144",
             "Debit": "",
             "Credit": "2800.00",
             "Balance": 49258.0,
@@ -508,10 +508,10 @@
             "Bill Serial": "20 / 31"
         },
         {
-            "Serial Number": 38,
+            "SR": 38,
             "Date": "14-07-2026",
             "Particulars": "Cr Sales",
-            "Reference": "484/2026-27",
+            "Ref": "484/2026-27",
             "Debit": "7772.00",
             "Credit": "",
             "Balance": 57030.0,
@@ -521,10 +521,10 @@
             "Bill Serial": ""
         },
         {
-            "Serial Number": 39,
+            "SR": 39,
             "Date": "17-07-2026",
             "Particulars": "Cr Sales",
-            "Reference": "530/2026-27",
+            "Ref": "530/2026-27",
             "Debit": "26522.10",
             "Credit": "",
             "Balance": 83552.1,
@@ -534,10 +534,10 @@
             "Bill Serial": ""
         },
         {
-            "Serial Number": 40,
+            "SR": 40,
             "Date": "17-07-2026",
             "Particulars": "Cr Sales",
-            "Reference": "531/2026-27",
+            "Ref": "531/2026-27",
             "Debit": "38734.00",
             "Credit": "",
             "Balance": 122286.1,
@@ -547,10 +547,10 @@
             "Bill Serial": ""
         },
         {
-            "Serial Number": 41,
+            "SR": 41,
             "Date": "17-07-2026",
             "Particulars": "Dr Cash",
-            "Reference": "650",
+            "Ref": "650",
             "Debit": "",
             "Credit": "33410.00",
             "Balance": 88876.1,
@@ -560,10 +560,10 @@
             "Bill Serial": "23 / 31"
         },
         {
-            "Serial Number": 42,
+            "SR": 42,
             "Date": "22-07-2026",
             "Particulars": "Cr Sales",
-            "Reference": "598/2026-27",
+            "Ref": "598/2026-27",
             "Debit": "1565.00",
             "Credit": "",
             "Balance": 90441.1,
@@ -573,10 +573,10 @@
             "Bill Serial": ""
         },
         {
-            "Serial Number": 43,
+            "SR": 43,
             "Date": "25-07-2026",
             "Particulars": "Dr Cash",
-            "Reference": "721",
+            "Ref": "721",
             "Debit": "",
             "Credit": "25177.00",
             "Balance": 65264.1,
@@ -586,10 +586,10 @@
             "Bill Serial": "25 / 31"
         },
         {
-            "Serial Number": 44,
+            "SR": 44,
             "Date": "27-07-2026",
             "Particulars": "Cr Sales",
-            "Reference": "652/2026-27",
+            "Ref": "652/2026-27",
             "Debit": "8365.00",
             "Credit": "",
             "Balance": 73629.1,
@@ -599,10 +599,10 @@
             "Bill Serial": ""
         },
         {
-            "Serial Number": 45,
+            "SR": 45,
             "Date": "28-07-2026",
             "Particulars": "Cr Sales",
-            "Reference": "663/2026-27",
+            "Ref": "663/2026-27",
             "Debit": "1565.00",
             "Credit": "",
             "Balance": 75194.1,
@@ -612,10 +612,10 @@
             "Bill Serial": ""
         },
         {
-            "Serial Number": 46,
+            "SR": 46,
             "Date": "01-08-2026",
             "Particulars": "Dr Cash",
-            "Reference": "773",
+            "Ref": "773",
             "Debit": "",
             "Credit": "48664.00",
             "Balance": 26530.1,
@@ -625,10 +625,10 @@
             "Bill Serial": "27 / 31"
         },
         {
-            "Serial Number": 47,
+            "SR": 47,
             "Date": "03-08-2026",
             "Particulars": "Cr Sales",
-            "Reference": "749/2026-27",
+            "Ref": "749/2026-27",
             "Debit": "34350.00",
             "Credit": "",
             "Balance": 60880.1,

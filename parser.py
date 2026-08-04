@@ -158,10 +158,10 @@ def parse_ledger(file_path):
         running_balance = val_bal
 
         results.append({
-            "Serial Number": serial_no,
+            "SR": serial_no,
             "Date": current_date,
             "Particulars": part_raw,
-            "Reference": vch_raw,
+            "Ref": vch_raw,
             "Debit": clean_deb,
             "Credit": clean_cre,
         })
